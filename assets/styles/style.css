@@ -29,11 +29,10 @@ header .desktop-logo {
     flex-direction: row-reverse;
 }
 
-header .desktop-logo p {
-    margin-top: 4px;
-    cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
+header .desktop-logo img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
 }
 
 header .desktop-logo .search {
@@ -116,18 +115,18 @@ header .desktop .desktop-acc svg:hover {
 }
 
 .title {
-    background-color: var(--white);
-    width: 80%;
+    background-color: var(--blue);
+    width: 100%;
     padding: 2rem;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px;
 }
 
 .cart-brands {
     padding: 1rem;
     border: 1px solid var(--dark);
     border-radius: 10px;
+    background-color: var(--white);
 }
 
 .cart-brands img {
@@ -303,6 +302,12 @@ footer .footer-desc p {
     opacity: .5;
 }
 
+.footer-logo img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
 .desc-company {
     background-image: url("../images/bg-1.jpg");
     padding: 1rem;
@@ -348,9 +353,10 @@ footer .footer-desc p {
 .filter-products {
     display: flex;
     justify-content: space-between;
-    background-color: var(--white);
+    background-color: var(--red);
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
 }
 
 .filter-products .form-select {
@@ -382,8 +388,31 @@ footer .footer-desc p {
     left: 1rem;
 }
 
+
 .products {
     background-color: var(--white);
+}
+
+.cart-row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+
+.cart-row .cart-image-row img {
+    width: 10rem;
+    height: 100%;
+}
+
+
+
+.cart-row .cart-desc .cart-desc-btn {
+    background-color: var(--gray);
+    padding: .5rem;
+    border-radius: 10px;
+    color: var(--dark);
 }
 
 .title-categories {
@@ -478,3 +507,43 @@ footer .footer-desc p {
 
 
 /* ! contact Us */
+
+/* ! single Product */
+
+.sinle-product-page {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.image-product img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sinle-product-page .desc-product {
+    margin-right: 1rem;
+    background-color: var(--white);
+    width: 50%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sinle-product-page .box-product {
+    background-color: var(--white);
+}
+
+.sinle-product-page a {
+    background-color: var(--blue);
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    color: var(--white);
+}
+
+.mobile-add {
+    display: none;
+}
+
+/* ! single Product */
