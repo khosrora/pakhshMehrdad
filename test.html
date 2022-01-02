@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" name="" id="test">
+    <input type="text" name="" id="test2">
+    <button id="btn">test</button>
+
+
+
+
+    <script>
+        const btn = document.getElementById("btn");
+        // btn.addEventListener("click", () => {
+        //     const test = document.getElementById("test").value;
+        //     const test2 = document.getElementById("test2").value;
+        //     if (test.length < 6 && test2.length < 2) {
+        //         alert("لطفا پسوورد خود را کمتر از 6 کاراکتر انتخاب نکنید")
+        //     } else {
+        //         alert("ورود شما با موفیت انجام شد")
+        //     }
+        // })
+        //console.log(test, test)
+        // for (let i = 0; i <= 100; i = i + 2) {
+        //     console.log(i)
+        // }
+
+
+
+
+
+        // for (let i = 0; i <= 100; i++) {
+        //     console.log(i)
+        // }
+        // for (let i = 100; i >= 0; i--) {
+        //     console.log(i)
+        // }
+
+        btn.addEventListener("click", () => {
+            // const test = document.getElementById("test").value;
+            // const test2 = document.getElementById("test2").value;
+            // if (test == test2) {
+            //     alert("ok")
+            // } else {
+            //     alert("not ok")
+            // }
+
+            // for (let i = 1; i < test2; i = i + 2) {
+            //     console.log(i)
+            // }
+            // for (const i of test2) {
+            //     if (i == "e") {
+            //         alert("no")
+
+
+            //     } else {
+            //         console.log(i)
+            //     }
+            // }
+        })
+        for (let count = 0; count <= 100; count++) {
+            count % 2 == 0 ? console.log(`${count} is even`) : console.log(`${count} is odd`);
+        }
+    </script>
+</body>
+
+</html>
