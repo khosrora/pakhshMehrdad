@@ -115,8 +115,7 @@ header .desktop .desktop-acc svg:hover {
 }
 
 .title {
-    background-color: var(--blue);
-    width: 100%;
+    background-image: url("../images/WhatsApp\ Image\ 2022-01-07\ at\ 13.16.27.jpeg");
     padding: 2rem;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
